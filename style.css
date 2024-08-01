@@ -1,0 +1,36 @@
+.card{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: left;
+    flex-wrap: wrap;
+    
+}
+
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h2, h1{
+    color: orange;
+}
+
+img{
+    width:100%
+    
+    
+    
+}
+
+@media( max-width:333px)
+{
+    #pets{
+        flex-wrap: wrap;
+    }
+}
